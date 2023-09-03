@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: java-app
-        image: pylifedevops/awsmavendemo:latest
+        image: ravindra1407/awsmavendemo:latest
         ports:
         - containerPort: 8080
         imagePullPolicy: Always
